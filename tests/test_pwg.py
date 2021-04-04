@@ -11,7 +11,7 @@ class TestPWG:
 
     def test_contains_lowercase(self):
         """
-        Tests that generated password contains an lowercase character
+        Tests that generated password contains a lowercase character
         """
         assert re.search("[a-z]", PasswordGenerator().create())
 
