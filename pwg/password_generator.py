@@ -2,7 +2,6 @@ from functools import reduce
 from random import randrange
 from uuid import uuid4
 
-
 class PasswordGenerator:
     @staticmethod
     def create():
